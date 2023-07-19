@@ -2,7 +2,6 @@
 .moneydetail_card {
   display: flex;
   flex-direction: row;
-
   justify-content: space-between;
   align-items: center;
   margin: 20px 0px;
@@ -14,7 +13,7 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
-  height: 125px;
+  /* height: 125px; */
   width: 30%;
   padding: 10px 20px 10px 10px;
 }
@@ -45,4 +44,35 @@
   margin-top: 2px;
   color: #1e293b;
   font-weight: 600;
+}
+
+@media screen and (max-width: 578px) {
+  .moneydetail_card {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    padding-left: 0px;
+  }
+  .my_details {
+    /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  height: 125px; */
+    width: 100%;
+    margin: 5px 0px;
+  }
+  .mybalance {
+    font-size: 12px;
+  }
+  .mybalance2 {
+    font-size: 16px;
+  }
+  .image1 {
+    height: 30px;
+    width: 30px;
+  }
 }

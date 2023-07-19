@@ -26,7 +26,7 @@ class MoneyDetails extends Component {
             src="https://assets.ccbp.in/frontend/react-js/money-manager/balance-image.png"
             alt="balance"
           />
-          <div>
+          <div className="last">
             <p className="mybalance">Your Balance</p>
             <p data-testid="balanceAmount" className="mybalance2">
               Rs {yourbalance}
