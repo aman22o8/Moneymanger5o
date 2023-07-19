@@ -66,7 +66,7 @@ class MoneyManager extends Component {
     let incomed = 0
 
     historyitem.forEach(each => {
-      if (each.activetype === transactionTypeOptions[0].displayText) {
+      if (each.type === transactionTypeOptions[0].displayText) {
         incomed += parseInt(each.amount)
       }
     })
@@ -77,7 +77,7 @@ class MoneyManager extends Component {
     const {historyitem} = this.state
     let expensed = 0
     historyitem.forEach(each => {
-      if (each.activetype !== transactionTypeOptions[0].displayText) {
+      if (each.type !== transactionTypeOptions[0].displayText) {
         expensed += parseInt(each.amount)
       }
     })
@@ -90,7 +90,7 @@ class MoneyManager extends Component {
     let balanced = 0
     let expensed = 0
     historyitem.forEach(each => {
-      if (each.activetype === transactionTypeOptions[0].displayText) {
+      if (each.type === transactionTypeOptions[0].displayText) {
         incomed += parseInt(each.amount)
       } else {
         expensed += parseInt(each.amount)
