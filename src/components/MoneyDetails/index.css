@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.moneydetail_card {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+  padding-left: 0px;
+}
+.my_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  height: 125px;
+  width: 30%;
+  padding: 10px 20px 10px 10px;
+}
+.green_detail {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.blue_detail {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.violet_detail {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+.image1 {
+  margin-left: 10px;
+  height: 60px;
+  width: 60px;
+}
+.mybalance {
+  font-size: 18px;
+  margin-bottom: 2px;
+  color: #7e858e;
+}
+.mybalance2 {
+  font-size: 25px;
+  margin-top: 2px;
+  color: #1e293b;
+  font-weight: 600;
+}
